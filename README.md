@@ -1,15 +1,15 @@
 # flask-pygbag-gamehost
-Flask template to host an app that was build with the [pygbag module](https://github.com/pygame-web/pygbag)
+Flask template to host an app that was built with the [pygbag module](https://github.com/pygame-web/pygbag)
 
 ## How to use it
 1. Clone this repository 
 
-2. Build your pygame projekt with pygbag (click [here](https://github.com/pygame-web/pygbag) for further command explaination) 
+2. Build your pygame project with pygbag (click [here](https://github.com/pygame-web/pygbag) for further command explanation) 
 ```sh
 python3 -m pygbag --build main.py
 ```
 
-3. Replace the [build-folder](./build/) with the folder that was builded in step 2
+3. Replace the [build-folder](./build/) with the folder that was built in step 2
 
 4. Run the flask server:
 ```sh
